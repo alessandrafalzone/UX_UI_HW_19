@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.light-blue {
+  color: #BBDEDE;
+}
+
+.medium-blue {
+  color: #61A8A8;
+}
+
+.dark-blue {
+  color: #417676;
+}
+
+.light-pink {
+  color: #CEB6BC;
+}
+
+.medium-pink {
+  color: #B38D97;
+}
+
+.dark-pink {
+  color: #93626E;
+}
+
+.navbar {
+    color: #FFFFFF;
+}
+.nav-link {
+    color: #93626E !important;
+    font-weight: 600;
+}
+
+.active {
+  color: black  !important;
+}
+
+h4 {
+  padding-bottom: 50px;
+}
+
+#bio {
+  padding-top: 100px;
+}
+
+#bio > p {
+  font-family: monospace;
+}
+
+.button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #B38D97;
+    color: white;
+    font-family: monospace;
+    transition: color 0.3s ease-in;
+}
+
+.button:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+#profile-photo > img {
+  padding-top: 75px;
+  padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#profile-photo > p {
+  font-family: monospace;
+  text-align: center;
+  width: 100%;
+}
+
+.blue {
+    background-color: #BBDEDE;
+    font-family: monospace;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.white {
+  background-color: white;
+  font-family: monospace;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#footer {
+  padding: 1rem;
+  text-align: center;
+  background: #B38D97;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#quote {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.fa {
+  font-size: 1.3rem;
+  padding-right: 1.3rem;
+  color: #fefefe;
+  transition: color 0.3s ease-in;
+}
+
+.fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+.myuxskills {
+  background-color: #BBDEDE;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.skill{
+  border: 1px solid #61A8A8;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px 20px;
+}
+
+.pink-border {
+  border: 1px solid #CEB6BC;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
+#btnScrolltoTop {
+  position:fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  padding-top: 6px;
+  border-radius: 50%;
+  background: #B38D97;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.25);
+  color: #FFFFFF;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
